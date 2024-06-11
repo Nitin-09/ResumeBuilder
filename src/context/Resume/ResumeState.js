@@ -3,7 +3,7 @@ import { useState } from "react";
 import axios from "axios";
 
 const ResumeState = (props) => {
-  const host = "http://localhost:5000/.netlify/functions";
+  const host = "https://resumeforgebkend.netlify.app/.netlify/functions";
 
   const submitDetails = async (details, resumeId) => {
     try {
