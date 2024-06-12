@@ -8,7 +8,7 @@ function SignUp(props) {
     const [loading, setLoading] = useState(false);
     const [Otp, setOtp] = useState(0);
     let navigate = useNavigate();
-    const host = 'https://resumeforgebkend.netlify.app/.netlify/functions';
+    const host = 'https://resumebuilderbackend.netlify.app/.netlify/functions';
 
     const { register, handleSubmit, watch, formState: { errors } } = useForm({ mode: 'all' });
 

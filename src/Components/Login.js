@@ -6,7 +6,7 @@ import axios from 'axios';
 function Login(props) {
     const [showPassword, setshowPassword] = useState(false);
     let navigate = useNavigate();
-    const host = 'https://resumeforgebkend.netlify.app/.netlify/functions';
+    const host = 'https://resumebuilderbackend.netlify.app/.netlify/functions';
     const { register, handleSubmit, formState: { errors } } = useForm({ mode: 'all' });
 
     const onSubmit = async (data) => {
