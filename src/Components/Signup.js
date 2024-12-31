@@ -182,6 +182,11 @@ function SignUp(props) {
             <div className="mt-8">
                 <input className="focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 text-sm font-semibold leading-none text-white focus:outline-none bg-indigo-700 border rounded hover:bg-indigo-600 py-4 w-full" type="submit" value="Create my account" />
             </div>
+        <div>
+                <span>Test User detail || </span>
+                <span>username : Test@gmail.com ||  </span>
+                <span>password : test@</span>
+            </div>
             {/* <div className="w-full flex items-center justify-between py-5">
                 <hr className="w-full bg-gray-400" />
                 <p className="text-base font-medium leading-4 px-2.5 text-gray-400">OR</p>
