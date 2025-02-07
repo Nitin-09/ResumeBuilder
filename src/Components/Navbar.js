@@ -18,7 +18,7 @@ function Navbar() {
     const [drawerState, setdrawerState] = useState(false)
     const [active, setactive] = useState("login")
     return (
-        <div className='bg-pattern bg-contain bg-no-repeat tall:bg-contain lg:bg-cover'>
+        <div className='bg-pattern bg-cover bg-no-repeat tall:bg-contain lg:bg-cover'>
             <div className='relative z-50'>
                 <div className='flex justify-between w-full lg:px-10'>
                     <Link to='/'><img className='h-[13vh] lg:h-[22vh]' src={Logo} alt="" /></Link>
